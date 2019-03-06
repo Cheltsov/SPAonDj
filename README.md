@@ -1,1 +1,1 @@
-"# spa_on_django" 
+Single Page Application on Django 
