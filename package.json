@@ -4,7 +4,7 @@
   "description": "spa on django",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack=dev-server --open --hot --watch --inline",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --watch --inline",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "lint": "vue-cli-service lint assets/js"
   },
@@ -35,7 +35,7 @@
     "@vue/cli-plugin-eslint": "^3.0.0-beta.11",
     "@vue/cli-service": "^3.0.0-beta.11",
     "babel-core": "^6.26.0",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^7.1.5",
     "babel-plugin-syntax-dynamic-import": "^6.10.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
